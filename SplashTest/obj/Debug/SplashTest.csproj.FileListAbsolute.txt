@@ -1,0 +1,14 @@
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\bin\Debug\SplashTest.dll
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\bin\Debug\SplashTest.pdb
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\bin\Debug\nunit.core.dll
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\bin\Debug\nunit.core.interfaces.dll
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\bin\Debug\nunit.framework.dll
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\bin\Debug\nunit.util.dll
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\bin\Debug\NUnit.VisualStudio.TestAdapter.dll
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\bin\Debug\PortableUI.dll
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\bin\Debug\Xamarin.UITest.dll
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\bin\Debug\PortableUI.pdb
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\bin\Debug\nunit.framework.xml
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\bin\Debug\Xamarin.UITest.xml
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\obj\Debug\SplashTest.dll
+C:\Users\volovely\Documents\trading_app\mob\SplashTest\obj\Debug\SplashTest.pdb

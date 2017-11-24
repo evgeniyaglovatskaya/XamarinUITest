@@ -1,0 +1,13 @@
+C:\Users\volovely\Documents\trading_app\mob\PortableUI\bin\Release\PortableUI.dll
+C:\Users\volovely\Documents\trading_app\mob\PortableUI\bin\Release\PortableUI.pdb
+C:\Users\volovely\Documents\trading_app\mob\PortableUI\bin\Release\nunit.core.dll
+C:\Users\volovely\Documents\trading_app\mob\PortableUI\bin\Release\nunit.core.interfaces.dll
+C:\Users\volovely\Documents\trading_app\mob\PortableUI\bin\Release\nunit.framework.dll
+C:\Users\volovely\Documents\trading_app\mob\PortableUI\bin\Release\nunit.util.dll
+C:\Users\volovely\Documents\trading_app\mob\PortableUI\bin\Release\NUnit.VisualStudio.TestAdapter.dll
+C:\Users\volovely\Documents\trading_app\mob\PortableUI\bin\Release\Xamarin.UITest.dll
+C:\Users\volovely\Documents\trading_app\mob\PortableUI\bin\Release\nunit.framework.xml
+C:\Users\volovely\Documents\trading_app\mob\PortableUI\bin\Release\Xamarin.UITest.xml
+C:\Users\volovely\Documents\trading_app\mob\PortableUI\obj\Release\PortableUI.dll
+C:\Users\volovely\Documents\trading_app\mob\PortableUI\obj\Release\PortableUI.pdb
+C:\Users\volovely\Documents\trading_app\mob\PortableUI\obj\Release\PortableUI.csprojResolveAssemblyReference.cache

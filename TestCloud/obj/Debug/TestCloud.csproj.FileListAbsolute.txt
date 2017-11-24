@@ -1,0 +1,11 @@
+C:\Users\volovely\Documents\trading_app\mob\TestCloud\bin\Debug\TestCloud.dll
+C:\Users\volovely\Documents\trading_app\mob\TestCloud\bin\Debug\TestCloud.pdb
+C:\Users\volovely\Documents\trading_app\mob\TestCloud\bin\Debug\nunit.framework.dll
+C:\Users\volovely\Documents\trading_app\mob\TestCloud\bin\Debug\PortableUI.dll
+C:\Users\volovely\Documents\trading_app\mob\TestCloud\bin\Debug\Xamarin.UITest.dll
+C:\Users\volovely\Documents\trading_app\mob\TestCloud\bin\Debug\PortableUI.pdb
+C:\Users\volovely\Documents\trading_app\mob\TestCloud\bin\Debug\nunit.framework.xml
+C:\Users\volovely\Documents\trading_app\mob\TestCloud\bin\Debug\Xamarin.UITest.xml
+C:\Users\volovely\Documents\trading_app\mob\TestCloud\obj\Debug\TestCloud.csprojResolveAssemblyReference.cache
+C:\Users\volovely\Documents\trading_app\mob\TestCloud\obj\Debug\TestCloud.dll
+C:\Users\volovely\Documents\trading_app\mob\TestCloud\obj\Debug\TestCloud.pdb

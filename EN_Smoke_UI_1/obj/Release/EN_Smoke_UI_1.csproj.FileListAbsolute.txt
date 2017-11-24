@@ -1,0 +1,11 @@
+C:\Users\volovely\Documents\trading_app\mob\EN_Smoke_UI_1\bin\Release\EN_Smoke_UI_1.dll
+C:\Users\volovely\Documents\trading_app\mob\EN_Smoke_UI_1\bin\Release\EN_Smoke_UI_1.pdb
+C:\Users\volovely\Documents\trading_app\mob\EN_Smoke_UI_1\bin\Release\nunit.framework.dll
+C:\Users\volovely\Documents\trading_app\mob\EN_Smoke_UI_1\bin\Release\PortableUI.dll
+C:\Users\volovely\Documents\trading_app\mob\EN_Smoke_UI_1\bin\Release\Xamarin.UITest.dll
+C:\Users\volovely\Documents\trading_app\mob\EN_Smoke_UI_1\bin\Release\PortableUI.pdb
+C:\Users\volovely\Documents\trading_app\mob\EN_Smoke_UI_1\bin\Release\nunit.framework.xml
+C:\Users\volovely\Documents\trading_app\mob\EN_Smoke_UI_1\bin\Release\Xamarin.UITest.xml
+C:\Users\volovely\Documents\trading_app\mob\EN_Smoke_UI_1\obj\Release\EN_Smoke_UI_1.csprojResolveAssemblyReference.cache
+C:\Users\volovely\Documents\trading_app\mob\EN_Smoke_UI_1\obj\Release\EN_Smoke_UI_1.dll
+C:\Users\volovely\Documents\trading_app\mob\EN_Smoke_UI_1\obj\Release\EN_Smoke_UI_1.pdb

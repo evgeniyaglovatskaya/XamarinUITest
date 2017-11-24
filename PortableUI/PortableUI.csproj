@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{31D78724-5933-453B-8A7C-7DACDAF2A78B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PortableUI</RootNamespace>
+    <AssemblyName>PortableUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.core">
+      <HintPath>..\packages\NUnitTestAdapter.2.0.0\lib\nunit.core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nunit.core.interfaces">
+      <HintPath>..\packages\NUnitTestAdapter.2.0.0\lib\nunit.core.interfaces.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="nunit.util">
+      <HintPath>..\packages\NUnitTestAdapter.2.0.0\lib\nunit.util.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NUnit.VisualStudio.TestAdapter">
+      <HintPath>..\packages\NUnitTestAdapter.2.0.0\lib\NUnit.VisualStudio.TestAdapter.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="Xamarin.UITest">
+      <HintPath>..\packages\Xamarin.UITest.1.3.8\lib\Xamarin.UITest.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helpers.cs" />
+    <Compile Include="LocalizationEnum.cs" />
+    <Compile Include="LocalizationStrings\ENStrings.cs" />
+    <Compile Include="LocalizationStrings\ILocalization.cs" />
+    <Compile Include="LocalizationStrings\LocalizationDictionary.cs" />
+    <Compile Include="LocalizationStrings\RUStrings.cs" />
+    <Compile Include="Path.cs" />
+    <Compile Include="Resources.cs" />
+    <Compile Include="ScreenObjectModel\AuthScreen\AndroidAuthRegister.cs" />
+    <Compile Include="ScreenObjectModel\AuthScreen\IAuthRegisterScreen.cs" />
+    <Compile Include="ScreenObjectModel\AuthScreen\IosAuthRegister.cs" />
+    <Compile Include="ScreenObjectModel\ChartScreen\AndroidChart.cs" />
+    <Compile Include="ScreenObjectModel\ChartScreen\IChartScreen.cs" />
+    <Compile Include="ScreenObjectModel\ChartScreen\IosChart.cs" />
+    <Compile Include="ScreenObjectModel\ClosedDealsScreen\AndroidClosedDeals.cs" />
+    <Compile Include="ScreenObjectModel\ClosedDealsScreen\IClosedDealsScreen.cs" />
+    <Compile Include="ScreenObjectModel\ClosedDealsScreen\IosClosedDeals.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\AlfaBank.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\Astropay.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\Boleto.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\CashU.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\DepositBase.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\DepositScreen.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\MonetaRu.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\Neteller.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\OnlineWireTransfer.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\Promsvyazbank.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\QiwiWallet.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\Visa.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\Visa3dSecure.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\VisaCreditCard.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\WalletOne.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\WebMoney.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\YandexMoney.cs" />
+    <Compile Include="ScreenObjectModel\Deposit\YuuPay.cs" />
+    <Compile Include="ScreenObjectModel\Drawer\AndroidDrawerEN.cs" />
+    <Compile Include="ScreenObjectModel\Drawer\AndroidDrawerRU.cs" />
+    <Compile Include="ScreenObjectModel\Drawer\IDrawer.cs" />
+    <Compile Include="ScreenObjectModel\Drawer\IosDrawerEN.cs" />
+    <Compile Include="ScreenObjectModel\Drawer\IosDrawerRU.cs" />
+    <Compile Include="ScreenObjectModel\EditOpenDealScreen\AndroidEditOpenDeal.cs" />
+    <Compile Include="ScreenObjectModel\EditOpenDealScreen\IEditOpenDeal.cs" />
+    <Compile Include="ScreenObjectModel\EditOpenDealScreen\IosEditOpenDeal.cs" />
+    <Compile Include="ScreenObjectModel\ElemDictionary.cs" />
+    <Compile Include="ScreenObjectModel\FavoritesScreen\AndroidFavorites.cs" />
+    <Compile Include="ScreenObjectModel\FavoritesScreen\IFavoritesScreen.cs" />
+    <Compile Include="ScreenObjectModel\FavoritesScreen\IosFavorites.cs" />
+    <Compile Include="ScreenObjectModel\LimitOrderScreen\AndroidLimitOrder.cs" />
+    <Compile Include="ScreenObjectModel\LimitOrderScreen\ILimitOrderScreen.cs" />
+    <Compile Include="ScreenObjectModel\LimitOrderScreen\IosLimitOrder.cs" />
+    <Compile Include="ScreenObjectModel\OpenDealScreen\AndroidOpenDeal.cs" />
+    <Compile Include="ScreenObjectModel\OpenDealScreen\IOpenDealScreen.cs" />
+    <Compile Include="ScreenObjectModel\OpenDealScreen\IosOpenDeal.cs" />
+    <Compile Include="ScreenObjectModel\OpenedDealsScreen\AndroidOpenedDeals.cs" />
+    <Compile Include="ScreenObjectModel\OpenedDealsScreen\IOpenedDealsScreen.cs" />
+    <Compile Include="ScreenObjectModel\OpenedDealsScreen\IosOpenedDeals.cs" />
+    <Compile Include="ScreenObjectModel\RegisterScreen\AndroidRegisterScreen.cs" />
+    <Compile Include="ScreenObjectModel\RegisterScreen\IosRegisterScreen.cs" />
+    <Compile Include="ScreenObjectModel\RegisterScreen\IRegisterScreen.cs" />
+    <Compile Include="ScreenObjectModel\ScreenInit.cs" />
+    <Compile Include="ScreenObjectModel\ToolsScreen\AndroidTools.cs" />
+    <Compile Include="ScreenObjectModel\ToolsScreen\IosTools.cs" />
+    <Compile Include="ScreenObjectModel\ToolsScreen\ITools.cs" />
+    <Compile Include="Simulators.cs" />
+    <Compile Include="AppInitializer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
